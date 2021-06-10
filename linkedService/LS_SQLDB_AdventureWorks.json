@@ -1,0 +1,14 @@
+{
+	"name": "LS_SQLDB_AdventureWorks",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=sqlsvr-hector.database.windows.net;Initial Catalog=AdventureWorksLT-hector"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
