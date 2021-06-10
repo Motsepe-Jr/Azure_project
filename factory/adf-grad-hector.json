@@ -1,0 +1,9 @@
+{
+	"name": "adf-grad-hector",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2ea28278-9e42-4a26-9d49-e7209eb3e5a4",
+		"tenantId": "16e79c95-57c1-497d-bd45-06210b204f16"
+	}
+}
