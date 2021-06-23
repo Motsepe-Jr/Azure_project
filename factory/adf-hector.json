@@ -1,0 +1,9 @@
+{
+	"name": "adf-hector",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2742c140-f4eb-461f-8e06-36465f23a5fb",
+		"tenantId": "16e79c95-57c1-497d-bd45-06210b204f16"
+	}
+}
