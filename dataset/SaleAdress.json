@@ -1,5 +1,5 @@
 {
-	"name": "Table_delimited",
+	"name": "SaleAdress",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
