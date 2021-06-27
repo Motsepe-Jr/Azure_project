@@ -1,5 +1,5 @@
 {
-	"name": "AzureSqlTable1",
+	"name": "CustomerAdress",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
@@ -12,32 +12,17 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
+				"name": "CustomerID",
+				"type": "int",
+				"precision": 10
+			},
+			{
 				"name": "AddressID",
 				"type": "int",
 				"precision": 10
 			},
 			{
-				"name": "AddressLine1",
-				"type": "nvarchar"
-			},
-			{
-				"name": "AddressLine2",
-				"type": "nvarchar"
-			},
-			{
-				"name": "City",
-				"type": "nvarchar"
-			},
-			{
-				"name": "StateProvince",
-				"type": "nvarchar"
-			},
-			{
-				"name": "CountryRegion",
-				"type": "nvarchar"
-			},
-			{
-				"name": "PostalCode",
+				"name": "AddressType",
 				"type": "nvarchar"
 			},
 			{
@@ -53,7 +38,7 @@
 		],
 		"typeProperties": {
 			"schema": "SalesLT",
-			"table": "Address"
+			"table": "CustomerAddress"
 		}
 	}
 }
