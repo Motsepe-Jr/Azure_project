@@ -1,0 +1,33 @@
+{
+	"name": "GetAllCategory",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "AdventureWork_dataset/Product"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ParentProductCategoryName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ProductCategoryName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ProductCategoryID",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": "vGetAllCategories"
+		}
+	}
+}

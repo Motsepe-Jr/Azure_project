@@ -1,0 +1,41 @@
+{
+	"name": "ProductandDescription",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "AdventureWork_dataset/Product"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ProductID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ProductModel",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Culture",
+				"type": "nchar"
+			},
+			{
+				"name": "Description",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": "vProductAndDescription"
+		}
+	}
+}

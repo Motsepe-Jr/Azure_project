@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
-			"name": "Data_Lake_dataset"
+			"name": "Data_Lake_dataset/Address"
 		},
 		"annotations": [],
 		"type": "DelimitedText",

@@ -1,0 +1,123 @@
+{
+	"name": "ProductCatalog",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "AdventureWork_dataset/Product"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ProductModelID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Summary",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Manufacturer",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Copyright",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ProductURL",
+				"type": "nvarchar"
+			},
+			{
+				"name": "WarrantyPeriod",
+				"type": "nvarchar"
+			},
+			{
+				"name": "WarrantyDescription",
+				"type": "nvarchar"
+			},
+			{
+				"name": "NoOfYears",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MaintenanceDescription",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Wheel",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Saddle",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Pedal",
+				"type": "nvarchar"
+			},
+			{
+				"name": "BikeFrame",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Crankset",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PictureAngle",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PictureSize",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ProductPhotoID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Material",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Color",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ProductLine",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Style",
+				"type": "nvarchar"
+			},
+			{
+				"name": "RiderExperience",
+				"type": "nvarchar"
+			},
+			{
+				"name": "rowguid",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": "vProductModelCatalogDescription"
+		}
+	}
+}
